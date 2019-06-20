@@ -1,0 +1,22 @@
+* {
+  margin: 0 auto;
+}
+
+nav ul {
+  grid-gap: 20px;
+  list-style: none;
+  background: grey;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  color: white;
+}
+
+nav a:hover {
+  background: lime;
+}
