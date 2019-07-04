@@ -1,9 +1,9 @@
 * {
-  margin: 0 auto;
+  margin: 0;
+  padding: 0px;
 }
 
 nav ul {
-  grid-gap: 20px;
   list-style: none;
   background: grey;
 }
@@ -19,4 +19,8 @@ nav a {
 
 nav a:hover {
   background: lime;
+}
+
+.paragraph p {
+  background-color: green;
 }
