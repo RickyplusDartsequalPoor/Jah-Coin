@@ -7,6 +7,9 @@
 nav ul {
   list-style: none;
   background: grey;
+}
+
+.middle ul {
   text-align: center;
 }
 
