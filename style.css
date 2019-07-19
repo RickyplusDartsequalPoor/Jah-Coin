@@ -1,26 +1,62 @@
 * {
   margin: 0;
   padding: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav ul {
   list-style: none;
   background: grey;
+  text-align: center;
 }
+
 nav li {
   display: inline-block;
 }
+
 nav a {
   text-decoration: none;
+  color: white;
   display: block;
   padding: 20px;
-  color: white;
 }
 
 nav a:hover {
   background: lime;
 }
 
-.paragraph p {
+body {
   background-color: green;
+}
+
+.list {
+  padding: 20px 40px;
+}
+
+.list ul {
+  padding: 20px 10px;
+}
+
+.paragraph {
+  background-color: white;
+  padding: 50px;
+}
+
+.main {
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+}
+
+.text-box {
+  padding: 20px;
+  background-color: lime;
+  margin: 10px 0px;
+}
+
+img {
+  width: 100%;
+  margin: 10px 0px;
 }
